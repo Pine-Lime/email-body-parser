@@ -1,0 +1,14 @@
+# Source files (dist is published instead)
+src/
+tests/
+
+# Config files
+tsconfig.json
+jest.config.js
+.gitignore
+
+# Dev files
+coverage/
+*.log
+.DS_Store
+

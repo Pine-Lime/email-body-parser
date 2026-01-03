@@ -1,0 +1,70 @@
+{
+  "name": "email-body-parser",
+  "version": "1.0.0",
+  "description": "Parse and clean email content - removes quotes, auto-signatures, and mailing list footers while preserving human signatures",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "email",
+    "parser",
+    "email-parser",
+    "email-reply",
+    "email-content",
+    "email-cleaner",
+    "quote-removal",
+    "signature-removal"
+  ],
+  "author": {
+    "name": "Pinenlime",
+    "url": "https://pinenlime.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinenlime/email-body-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pinenlime/email-body-parser/issues"
+  },
+  "homepage": "https://pinenlime.com",
+  "funding": {
+    "type": "website",
+    "url": "https://pinenlime.com"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "re2": "^1.20.0"
+  },
+  "peerDependenciesMeta": {
+    "re2": {
+      "optional": true
+    }
+  }
+}
+
