@@ -38,10 +38,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinenlime/email-body-parser.git"
+    "url": "git+https://github.com/Pine-Lime/email-body-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/pinenlime/email-body-parser/issues"
+    "url": "https://github.com/Pine-Lime/email-body-parser/issues"
   },
   "homepage": "https://pinenlime.com",
   "funding": {
