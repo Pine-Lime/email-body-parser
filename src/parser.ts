@@ -6,8 +6,8 @@
  * human-written sign-offs while filtering automated additions.
  */
 
-import type { EmailFragment, ParsedEmail, ParserOptions } from './types.js';
-import { QUOTE_PATTERNS, AUTO_SIGNATURE_PATTERNS, MAILING_LIST_PATTERNS } from './patterns/index.js';
+import type { EmailFragment, ParsedEmail, ParserOptions } from './types.ts';
+import { QUOTE_PATTERNS, AUTO_SIGNATURE_PATTERNS, MAILING_LIST_PATTERNS } from './patterns/index.ts';
 
 /** Internal fragment representation */
 class TextFragment implements EmailFragment {

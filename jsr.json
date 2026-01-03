@@ -1,0 +1,19 @@
+{
+  "name": "@pinenlime/email-body-parser",
+  "version": "1.0.0",
+  "description": "Parse and clean email content - removes quotes, auto-signatures, and mailing list footers while preserving human signatures",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publish": {
+    "include": ["src/**/*.ts", "README.md", "LICENSE"]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pine-Lime/email-body-parser"
+  },
+  "homepage": "https://pinenlime.com",
+  "authors": ["Pinenlime <https://pinenlime.com>"]
+}
+

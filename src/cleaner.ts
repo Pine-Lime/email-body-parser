@@ -6,8 +6,8 @@
  * Preserves: human sign-offs and contact details within the message body.
  */
 
-import { QUOTE_PATTERNS, AUTO_SIGNATURE_PATTERNS, MAILING_LIST_PATTERNS } from './patterns/index.js';
-import type { PatternDefinition } from './types.js';
+import { QUOTE_PATTERNS, AUTO_SIGNATURE_PATTERNS, MAILING_LIST_PATTERNS } from './patterns/index.ts';
+import type { PatternDefinition } from './types.ts';
 
 /**
  * Inline artifacts to strip (don't affect where we truncate)

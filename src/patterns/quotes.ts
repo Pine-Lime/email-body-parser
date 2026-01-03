@@ -1,4 +1,4 @@
-import type { PatternDefinition } from '../types.js';
+import type { PatternDefinition } from '../types.ts';
 
 /**
  * Detectors for quoted/forwarded email content

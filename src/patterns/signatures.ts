@@ -1,4 +1,4 @@
-import type { PatternDefinition } from '../types.js';
+import type { PatternDefinition } from '../types.ts';
 
 /**
  * Detectors for auto-generated signatures (NOT human sign-offs)
