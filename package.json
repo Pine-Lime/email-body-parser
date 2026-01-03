@@ -1,6 +1,6 @@
 {
   "name": "email-body-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse and clean email content - removes quotes, auto-signatures, and mailing list footers while preserving human signatures",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -67,4 +67,3 @@
     }
   }
 }
-
